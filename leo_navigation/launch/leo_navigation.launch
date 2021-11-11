@@ -1,0 +1,7 @@
+<launch>
+
+  <include file="$(find leo_navigation)/launch/twist_mux.launch"/>
+  <include file="$(find leo_navigation)/launch/drive.launch"/>
+  <include file="$(find leo_joy_example)/launch/joy.launch"/>
+
+</launch>

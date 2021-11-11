@@ -1,0 +1,8 @@
+<launch>
+
+  <node name="leo_navigation"
+        pkg="leo_navigation"
+        type="leo_navigation_node.py">
+  </node>
+
+</launch>
